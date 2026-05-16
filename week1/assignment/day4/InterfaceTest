@@ -1,0 +1,4 @@
+The Code does not compiles.
+It throws an compiler error. "Cannot assign a value to final variable 'i' " .
+Because in interface , variables are public static final under the hood.
+Variables declared with final , cannot be changed/reassigned afterwards .
