@@ -1,0 +1,6 @@
+If we keep a return type in constructor then java does not treats it has constructor , 
+it is now treated as normal method.
+Because constructors don't have : return type
+Constructor must:
+- have same name as class
+- have NO return type

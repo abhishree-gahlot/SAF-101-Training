@@ -1,0 +1,12 @@
+Finding duplicate characters in a String :
+1. Nested Loop Approach 
+- Outer loop picks one character
+- Inner loop checks remaining character ( comparison )
+
+If a character appears more than once , print it . 
+Complexity : O(n * n )
+
+2. Using HashMap 
+- It keeps the count of string character 
+- string character having count more than 1 will be printed 
+Complexity : O (n) 
