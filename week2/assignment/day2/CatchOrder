@@ -1,0 +1,24 @@
+In Java, catch blocks must be ordered from most specific to most general
+Child exceptions first then Parent exceptions later
+
+example:
+try
+{
+    // risky code
+} 
+catch (NullPointerException e) 
+{
+    System.out.println("Null pointer exception");
+} 
+catch (ArithmeticException e) 
+{
+    System.out.println("Arithmetic exception");
+} 
+catch (Exception e) 
+{
+    System.out.println("General exception");
+}
+
+
+Exception is the parent of all exceptions
+Catch specific problems first, general problems last

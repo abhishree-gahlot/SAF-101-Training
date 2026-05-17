@@ -1,0 +1,26 @@
+No , In java we cannot catch "Exception" before "NullPointerException" in a multi catch chain , 
+because of how exception hierarchy works.
+
+Why ?
+Because NullPointerException is a subclass of Runtime Exception , which is a subclass of exception.
+
+If we write :
+try 
+{
+} 
+catch (Exception e) 
+{
+    System.out.println("exception");
+} 
+catch (NullPointerException e) {
+    System.out.println("Null pointer");
+}
+
+This will cause compile time error , because java won't allow it . 
+Exception already catches all the exception including NullPointerException.
+So the second catch block becomes unreachable 
+
+Error to be faced: Unreachable catch block for NullPointerException
+
+Rule here should be :
+child exception then parent exception 
