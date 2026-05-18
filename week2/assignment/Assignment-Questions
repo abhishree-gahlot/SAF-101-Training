@@ -1,0 +1,33 @@
+Daily Practice Assignments
+Day 1:
+Is it possible to catch Exception before catching NullPointerException in single try-catch block?
+
+Day 2:
+Write a program using try catch and finally bock.
+How should the Exception catch blocks be ordered ?
+
+Day 3:
+
+Write a program containing a possible exception. Use a try block to throw it and a catch block to handle it promptly.
+
+Day 4:
+Write a program to showcase custom exception, also provide details why you used custom exception in that program.
+
+Day 5:
+Which type of Exception the below code will throw?
+
+class MyClass {
+
+  private static Pattern PATT = Pattern.compile("(");
+
+}
+
+try {
+
+  new MyClass();
+
+} catch (Throwable t) {}
+
+
+new MyClass();
+
