@@ -1,0 +1,171 @@
+# Day 1 — JUnit & Unit Testing
+
+1. Write unit tests for a calculator class:
+
+   * Addition
+   * Subtraction
+   * Multiplication
+   * Division
+
+2. Write a unit test for checking whether a number is prime.
+
+3. Create a palindrome checker method and test it.
+
+---
+
+## Introduction to JUnit
+
+1. Configure JUnit in a Java project and create your first test case.
+
+2. Use:
+
+   * `@Test`
+   * `@BeforeEach`
+   * `@AfterEach`
+
+3. Create a `Student` class and test getter methods.
+
+---
+
+## Assertions
+
+1. Practice:
+
+   * `assertEquals()`
+   * `assertTrue()`
+   * `assertFalse()`
+   * `assertNull()`
+   * `assertNotNull()`
+
+2. Compare two arrays using `assertArrayEquals()`.
+
+---
+
+# Day 2 — HTML/CSS/DOM
+
+## HTML
+
+1. Create a registration form using:
+
+   * input
+   * radio button
+   * checkbox
+   * dropdown
+
+2. Create a student details table.
+
+3. Build a simple portfolio webpage.
+
+---
+
+## CSS
+
+1. Apply:
+
+   * Inline CSS
+   * Internal CSS
+   * External CSS
+
+2. Create cards using:
+
+   * margin
+   * padding
+   * border
+
+3. Create a responsive navbar using Flexbox.
+
+---
+
+## DOM
+
+1. Change text content using JavaScript.
+
+2. Change background color on button click.
+
+3. Create a counter app using DOM manipulation.
+
+---
+
+# Day 3 — JavaScript Basics
+
+## Functions & Classes
+
+1. Create functions for:
+
+   * factorial
+   * palindrome
+   * prime number
+
+2. Create a `Student` class with:
+
+   * name
+   * age
+   * displayDetails() method
+
+3. Create objects using constructors.
+
+---
+
+## Var vs Let vs Const
+
+1. Create examples showing:
+
+   * scope difference
+   * reassignment
+   * redeclaration
+
+---
+
+## Undefined vs Null
+
+1. Demonstrate difference between:
+
+   * `undefined`
+   * `null`
+
+2. Compare:
+
+   * `==`
+   * `===`
+
+---
+
+# Day 4 — Advanced JavaScript
+
+## querySelector & querySelectorAll
+
+1. Select elements using:
+
+   * id
+   * class
+   * tag
+
+2. Change styles dynamically using selectors.
+
+---
+
+## Callbacks & Arrow Functions
+
+1. Create a callback-based calculator.
+
+2. Convert normal functions into arrow functions.
+
+3. Use arrow functions with arrays.
+
+---
+
+## Spread Operator
+
+1. Merge two arrays.
+
+2. Copy and update objects using spread operator.
+
+---
+
+## Promise / Async Await / AJAX
+
+1. Create a basic Promise with resolve and reject.
+
+2. Convert Promise code into async-await.
+
+3. Fetch API data using `fetch()` and display it on webpage.

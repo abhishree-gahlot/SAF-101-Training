@@ -1,0 +1,76 @@
+## Day 1: Set, HashSet, LinkedHashSet
+
+1. Write a program to take 5 student names as input and store them in a `HashSet`. Print only unique names and count duplicates.
+
+2. Create two `Set`s:
+
+   * Customers who ordered Pizza
+   * Customers who ordered Burger
+     Find common customers and customers who ordered only Pizza.
+
+3. Store website URLs in a `LinkedHashSet` and display them in the same order they were added.
+
+---
+
+## Day 2: Sorting Collections & Searching Collections
+
+4. Store employee salaries in an `ArrayList` and sort them in ascending and descending order.
+
+5. Write a program to search for a product name in a sorted list using `Collections.binarySearch()`.
+
+6. Create a list of students and sort them based on marks using `Collections.sort()`.
+
+---
+
+## Day 3: Arrays ↔ Lists, Lists, Sets
+
+7. Convert an integer array into an `ArrayList`, remove duplicate elements using `Set`, and print the updated list.
+
+8. Create a list of movie names and perform:
+
+   * Add movie
+   * Remove movie
+   * Search movie
+   * Display all movies
+
+9. Write a program to reverse all elements of an `ArrayList`.
+
+---
+
+## Day 4: Comparable & Comparator
+
+10. Create a `Student` class and sort students by marks using `Comparable`.
+
+11. Sort employees by salary using `Comparator`.
+
+12. Create a `Book` class and sort books by:
+
+   * Price
+   * Book name
+
+---
+
+## Day 5: Maps (HashMap, LinkedHashMap, TreeMap)
+
+13. Create a phonebook application using `HashMap` where:
+
+   * Name → Phone Number
+
+14. Count frequency of each word in a sentence using `HashMap`.
+
+15. Store product IDs and product names in a `TreeMap` and display them in sorted order of IDs.
+
+---
+
+## Day 6: Advantages of Using Maps
+
+16. Build a login system using `HashMap`:
+
+   * Username → Password
+
+17. Create a voting system using `Map` to count votes for candidates.
+
+18. Build a student marks management system:
+
+   * Student Name → Marks
+   * Display topper student.
