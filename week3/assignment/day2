@@ -1,0 +1,24 @@
+Question 1:
+To convert an ArrayList to Array , we can use toArray() method
+toArray method is used to convert collection like ArrayList into an array.
+There are two ways to convert it :
+1. without parameters : returns an object array
+- Object[] array = collection.toArray();
+2. with parameters ( preferred) : returns a typed array of chosen data type
+- String[] array = collection.toArray(new String[0]); 
+- here new String[0] meaning : Create an empty String array of size 0 , Empty array
+- Internal Working
+		list.toArray(new String[0]);
+		Steps:
+		1. Empty String array passed
+		2. Java checks list size
+		3. Java creates a new array of required size
+		4. Copies elements into it
+		5. Returns the array
+		
+To Convert an ArrayList to Array , we can use asList() method. 
+syntax  : ArrayList<Type> List = new ArrayList<>(Arrays.asList(array));
+Step:
+1. Original Array : Creates a normal array.
+2. Arrays.asList(array) : Converts array into a fixed-size list.
+3. new ArrayList<>(Arrays.asList(array)) : Creates a resizable ArrayList.
