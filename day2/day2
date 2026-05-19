@@ -1,0 +1,44 @@
+question 2. How to make UI more Responsive for all Screen?
+- Responsive sites means site that can adjusts properly on :
+- Mobile , Tablet , Laptop , Desktop 
+- Ways to do it :
+  1. Use Viewport Meta Tag
+  - which is added inside the head tag
+  - syntax : < meta name = "viewport" content = "width=device-width , initial-scale=1.0">
+  - purpose : Makes webpage scale correctly on mobile devices.
+  
+  2. Use flexible widths
+  - instead of fixed widths like 500px
+  - use width : 100%
+  - This adapts to different screens.
+  
+  3. Use Flexbox
+  - Elements automatically move to next line on smaller screens.
+  
+  4. Use Media Queries
+  - e.g
+	  @media screen and (max-width: 768px) 
+	  {
+	    .container {
+	        flex-direction: column;
+	    }
+	}
+  - If screen width is less than 768px, display items vertically
+	
+	
+question 3 .On registration page all the fields should have same CSS applied
+- It is a bad practice to use same css for all fields .
+- Try to use , common classes which will be applied to all 
+
+question 4 : Labels should be in Capital
+- using css we can do this:
+- 	label 
+	{
+    	text-transform: uppercase;
+	}
+
+question 5 : Display all content in Capital in paragraph using CSS
+- 	p 
+	{
+		text-transform : uppercase;
+	}
