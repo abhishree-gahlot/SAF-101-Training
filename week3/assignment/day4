@@ -1,0 +1,69 @@
+1. CUSTOMER TABLE
+CREATE TABLE Customer (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    phone VARCHAR(15)
+);
+
+
+2. ADDRESS TABLE
+CREATE TABLE Address (
+    address_id INT PRIMARY KEY,
+    customer_id INT,
+    city VARCHAR(50),
+    state VARCHAR(50),
+    pincode VARCHAR(10),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+
+3. PLAN TABLE
+CREATE TABLE Plan (
+    plan_id INT PRIMARY KEY,
+    customer_id INT,
+    plan_name VARCHAR(50),
+    price INT,
+    speed VARCHAR(20),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+
+4. INSERT SAMPLE DATA 
+INSERT INTO Customer VALUES (1, 'Amit', '9876543210');
+INSERT INTO Customer VALUES (2, 'Ravi', '9123456780');
+
+INSERT INTO Plan VALUES (201, 1, 'Basic', 600, '50Mbps');
+INSERT INTO Plan VALUES (202, 2, 'Premium', 1000, '100Mbps');
+
+5. JOIN QUERY
+SELECT 
+    c.customer_id,
+    c.name,
+    c.phone,
+    a.city,
+    a.state,
+    a.pincode,
+    p.plan_name,
+    p.price,
+    p.speed
+FROM Customer c
+INNER JOIN Address a ON c.customer_id = a.customer_id
+INNER JOIN Plan p ON c.customer_id = p.customer_id;
+
+6. VIEW TABLE
+CREATE VIEW CustomerFullView AS
+SELECT 
+    c.customer_id,
+    c.name,
+    c.phone,
+    a.city,
+    a.state,
+    a.pincode,
+    p.plan_name,
+    p.price,
+    p.speed
+FROM Customer c
+INNER JOIN Address a ON c.customer_id = a.customer_id
+INNER JOIN Plan p ON c.customer_id = p.customer_id;
+
+7. USE VIEW
+SELECT * FROM CustomerFullView;
+
