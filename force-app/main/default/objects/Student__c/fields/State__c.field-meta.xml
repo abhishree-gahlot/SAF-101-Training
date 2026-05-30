@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <description>State list when india is chosen</description>
+    <label>State</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bombay</fullName>
+                <default>false</default>
+                <label>Bombay</label>
+            </value>
+            <value>
+                <fullName>Sind</fullName>
+                <default>false</default>
+                <label>Sind</label>
+            </value>
+            <value>
+                <fullName>Madras</fullName>
+                <default>false</default>
+                <label>Madras</label>
+            </value>
+            <value>
+                <fullName>Bengal</fullName>
+                <default>false</default>
+                <label>Bengal</label>
+            </value>
+            <value>
+                <fullName>Burma</fullName>
+                <default>false</default>
+                <label>Burma</label>
+            </value>
+            <value>
+                <fullName>Punjab</fullName>
+                <default>false</default>
+                <label>Punjab</label>
+            </value>
+            <value>
+                <fullName>Central Provinces and Berar</fullName>
+                <default>false</default>
+                <label>Central Provinces and Berar</label>
+            </value>
+            <value>
+                <fullName>United Provinces</fullName>
+                <default>false</default>
+                <label>United Provinces</label>
+            </value>
+            <value>
+                <fullName>North-West Frontier Province</fullName>
+                <default>false</default>
+                <label>North-West Frontier Province</label>
+            </value>
+            <value>
+                <fullName>Assam</fullName>
+                <default>false</default>
+                <label>Assam</label>
+            </value>
+            <value>
+                <fullName>Bihar</fullName>
+                <default>false</default>
+                <label>Bihar</label>
+            </value>
+            <value>
+                <fullName>Orissa</fullName>
+                <default>false</default>
+                <label>Orissa</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Bombay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Sind</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Madras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Bengal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Burma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Punjab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Central Provinces and Berar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>United Provinces</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>North-West Frontier Province</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Assam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Bihar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>india</controllingFieldValue>
+            <valueName>Orissa</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
