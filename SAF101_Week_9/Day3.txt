@@ -1,0 +1,12 @@
+Write an SOQL query to get all the Accounts of Type='Business' from Contact Object.
+
+SELECT Id, Name, Account.Name
+FROM Contact
+WHERE Account.Type = 'Business'
+
+Write an SOQL query to fetch all the plans for each Service.
+
+SELECT Id, Name,
+       (SELECT Id, Name, Price__c
+        FROM Plans__r)
+FROM Service__c
