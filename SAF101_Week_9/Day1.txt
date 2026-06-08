@@ -1,0 +1,25 @@
+Describe a scenario in which you would need to use Apex instead of Flows?
+
+The best approach is : When we think that this flow is getting really complicated , that's a sign to use apex
+Flows can be used for :
+- Simple automation
+- Quick if/then on record save
+But apex : 
+- Http callout to external API
+- Processing 10,000+ records
+- Complex math 
+- JSON parsing
+- Run something on schedule 
+- multi object transaction 
+
+
+Scenarios like :
+1. Calculate a tiered commission for every sales rep based on their revenue, region, and quota attainment percentage
+	Flow can do basic IF/ELSE but becomes a nightmare with 10+ conditions
+	Apex clean if/else logic, math operators, readable code
+2. When an Order is placed, call FedEx's API to generate a shipping label and save the tracking number back to the record
+	flow cannot make raw HTTP callouts to external system
+	apex can have full http request/response control 
+3. Every night, find all Leads older than 1 year and mark them Stale. There are 200,000 of them.
+	flow will hit governor limits, timeouts, or crash on large volumes
+	apex Batch Apex handles millions of records safely

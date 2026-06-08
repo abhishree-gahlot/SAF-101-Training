@@ -1,0 +1,9 @@
+Implement different debug levels and showcase differences.
+
+- System.debug() has 5 levels - they tell salesforce how important a message is:
+1. System.debug(LoggingLevel.ERROR, 'Something broke. Record it always.');
+2. System.debug(LoggingLevel.WARN , 'Something broke. Record it always.');
+3. System.debug(LoggingLevel.INFO , 'General progress updates');
+4. System.debug(LoggingLevel.DEBUG , 'Checking values during development');
+5. System.debug(LoggingLevel.FINE , 'Very detailed tracing, loop-level');
+
