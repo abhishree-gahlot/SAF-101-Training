@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Specialization__c</fullName>
+    <label>Course Specialization</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AI</fullName>
+                <default>false</default>
+                <label>AI</label>
+            </value>
+            <value>
+                <fullName>Civil</fullName>
+                <default>false</default>
+                <label>Civil</label>
+            </value>
+            <value>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+                <label>Mechanical</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Computer Science</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>AI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>Mechanical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Civil</controllingFieldValue>
+            <valueName>Civil</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
